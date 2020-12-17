@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="538.0" prefWidth="432.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="new_player_controller">
+   <children>
+      <Text fill="WHITE" layoutX="25.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="--&gt; Create player Profile" wrappingWidth="267.11279296875">
+         <font>
+            <Font name="Segoe UI Semibold" size="21.0" />
+         </font>
+      </Text>
+      <Text fill="#00ff35" layoutX="86.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name:  ">
+         <font>
+            <Font name="Segoe UI Semibold" size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="new_player_name" layoutX="187.0" layoutY="243.0" />
+      <Text fill="#fff000" layoutX="67.0" layoutY="373.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Be a premium player.." textAlignment="CENTER" wrappingWidth="148.79999999999995">
+         <font>
+            <Font name="Segoe UI Semibold" size="15.0" />
+         </font>
+      </Text>
+      <Button alignment="TOP_LEFT" layoutX="239.0" layoutY="343.0" mnemonicParsing="false" onAction="#premium_profile" prefHeight="48.0" prefWidth="163.0" text="Buy premium pass and create profile" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Segoe UI Semibold" size="13.0" />
+         </font>
+      </Button>
+      <Text fill="WHITE" layoutX="25.0" layoutY="314.0" strokeType="OUTSIDE" strokeWidth="0.0" text="--&gt;  Want additional features?">
+         <font>
+            <Font name="Segoe UI Semibold Italic" size="18.0" />
+         </font>
+      </Text>
+      <Button layoutX="56.0" layoutY="422.0" mnemonicParsing="false" onAction="#normal_profile" prefHeight="31.0" prefWidth="170.0" text="Create Profile without pass" wrapText="true">
+         <font>
+            <Font name="Segoe UI Semibold" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="135.0" fitWidth="136.0" layoutX="125.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@player_pic.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="273.0" layoutY="444.0" mnemonicParsing="false" onAction="#back" prefHeight="30.0" prefWidth="88.0" text="Back">
+         <font>
+            <Font name="Segoe UI Semibold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
