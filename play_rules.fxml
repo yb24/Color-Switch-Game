@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="538.0" prefWidth="442.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="play_rules_controller">
+   <children>
+      <Text fill="WHITE" fontSmoothingType="LCD" layoutX="28.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-&gt; Objectives">
+         <font>
+            <Font name="Calibri" size="29.0" />
+         </font></Text>
+      <Text fill="WHITE" layoutX="19.0" layoutY="278.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-&gt; Control">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Text fill="RED" layoutX="79.0" layoutY="320.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&gt;&gt; Press space to move the ball up.">
+         <font>
+            <Font name="Calibri" size="21.0" />
+         </font>
+      </Text>
+      <Text fill="#6908fa" layoutX="59.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&gt;&gt; Dodge the obstacles and collect the stars to be the champions.. Do not forget to eat the super consumables.." wrappingWidth="340.177433013916">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Button layoutX="303.0" layoutY="358.0" mnemonicParsing="false" onAction="#back_to_menu" text="Back to MENU">
+         <font>
+            <Font name="Calibri Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="145.0" fitWidth="202.0" layoutX="59.0" layoutY="351.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@playing_rules.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

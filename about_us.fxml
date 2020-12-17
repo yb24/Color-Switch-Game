@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="538.0" prefWidth="432.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="about_us_controller">
+   <children>
+      <Text fill="#fff1f1" layoutX="38.0" layoutY="338.0" strokeType="OUTSIDE" strokeWidth="0.0" text="--&gt; Creators">
+         <font>
+            <Font name="Segoe UI Semibold" size="23.0" />
+         </font>
+      </Text>
+      <Text fill="#e1ff00" layoutX="61.0" layoutY="382.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Yash Bhargava, 2019289">
+         <font>
+            <Font name="Segoe UI Symbol" size="17.0" />
+         </font>
+      </Text>
+      <Text fill="#00e332" layoutX="61.0" layoutY="416.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Aryan Behal, 2019026">
+         <font>
+            <Font name="Segoe UI Symbol" size="17.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="38.0" layoutY="466.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;&lt;---- Happy Gaming ----&gt;&gt;" wrappingWidth="314.5794677734375">
+         <font>
+            <Font name="Segoe UI Historic" size="23.0" />
+         </font>
+      </Text>
+      <Button layoutX="292.0" layoutY="385.0" mnemonicParsing="false" onAction="#back_to_menu" text="Back to MENU" />
+      <ImageView fitHeight="471.0" fitWidth="432.0" layoutX="-2.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@bg3.gif" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="242.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="About US &lt;--">
+         <font>
+            <Font name="Segoe UI Semibold" size="26.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="72.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="We are a pair of two stupid guys who put in their best efforts to make this game. At every step. we had to Google stuff and failed regularly to make ends meet. But despite the grinding, we have made this game for our beloved customers  ( you are the first one) and ofc MARKS!!" wrappingWidth="301.13986587524414">
+         <font>
+            <Font name="Segoe UI Semibold" size="16.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
