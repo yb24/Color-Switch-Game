@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="538.0" prefWidth="442.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="obstacle_touched_controller">
+   <children>
+      <Button layoutX="186.0" layoutY="464.0" mnemonicParsing="false" onAction="#spend_and_continue" prefHeight="38.0" prefWidth="209.0" text="Spend STAR POINTS" wrapText="true">
+         <font>
+            <Font name="Segoe UI Semibold Italic" size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="308.0" layoutY="153.0" mnemonicParsing="false" onAction="#new_game" text="New Game">
+         <font>
+            <Font name="Segoe UI Semibold Italic" size="15.0" />
+         </font>
+      </Button>
+      <Text fill="RED" layoutX="172.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-) Touched OBSTACLE !!">
+         <font>
+            <Font name="Segoe UI Semibold" size="22.0" />
+         </font>
+      </Text>
+      <Text fill="#c9e800" layoutX="37.0" layoutY="441.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Or Want to Continue ??">
+         <font>
+            <Font name="Segoe UI Semibold" size="21.0" />
+         </font>
+      </Text>
+      <Text fill="#17c200" layoutX="52.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="--&gt;&gt;  GAME FINISHED !!!!">
+         <font>
+            <Font name="Segoe UI Semibold" size="29.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="254.0" fitWidth="258.0" layoutX="78.0" layoutY="142.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@circle.gif" />
+         </image>
+      </ImageView>
+      <Button layoutX="280.0" layoutY="380.0" mnemonicParsing="false" onAction="#return_to_main_menu" text="Return to MENU">
+         <font>
+            <Font name="Segoe UI Semibold Italic" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
