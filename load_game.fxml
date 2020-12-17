@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="538.0" prefWidth="432.0" styleClass="bodybg" stylesheets="@main_menu.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="load_game_controller">
+    <children>
+        <Text fill="WHITE" layoutX="33.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-&gt;&gt; Load Game">
+            <font>
+                <Font name="Segoe UI Semibold" size="25.0" />
+            </font></Text>
+        <ListView fx:id="game_list_view" layoutX="62.0" layoutY="174.0" onMouseClicked="#selected" prefHeight="226.0" prefWidth="243.0" styleClass="list-cell" stylesheets="@listview_styling.css" />
+        <Button layoutX="62.0" layoutY="433.0" mnemonicParsing="false" onAction="#Start" text=" Start Game">
+            <font>
+                <Font name="Segoe UI Semibold Italic" size="15.0" />
+            </font>
+        </Button>
+        <Button layoutX="216.0" layoutY="433.0" mnemonicParsing="false" onAction="#Delete" text="Delete Game">
+            <font>
+                <Font name="Segoe UI Semibold Italic" size="14.0" />
+            </font>
+        </Button>
+        <Text fill="#e0cb00" layoutX="63.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-&gt; Select game from list">
+            <font>
+                <Font name="Segoe UI Semibold Italic" size="16.0" />
+            </font>
+        </Text>
+      <Button layoutX="150.0" layoutY="487.0" mnemonicParsing="false" onAction="#back" prefHeight="26.0" prefWidth="90.0" text="Back">
+         <font>
+            <Font name="Segoe UI Semibold Italic" size="14.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
