@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="538.0" prefWidth="442.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="support_us_controller">
+   <children>
+      <Text fill="WHITE" layoutX="31.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-&gt;  WHY ???">
+         <font>
+            <Font name="Sitka Small" size="23.0" />
+         </font>
+      </Text>
+      <Text fill="#16ff00" layoutX="84.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="We are students of IIITD and need to pay for our expneses. Help is certainly needed for that. Kindly make small contributions to keep us afloat!! " wrappingWidth="274.77305603027344">
+         <font>
+            <Font name="Serif Regular" size="15.0" />
+         </font>
+      </Text>
+      <Button layoutX="56.0" layoutY="299.0" mnemonicParsing="false" onAction="#Gpay" text="Google Pay">
+         <font>
+            <Font name="Segoe UI Semibold Italic" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="139.0" layoutY="351.0" mnemonicParsing="false" onAction="#Paytm" text="PayTM">
+         <font>
+            <Font name="Segoe UI Semibold Italic" size="15.0" />
+         </font>
+      </Button>
+      <Text fill="WHITE" layoutX="35.0" layoutY="247.0" strokeType="OUTSIDE" strokeWidth="0.0" text="--&gt; Payment Modes" wrappingWidth="274.77305603027344">
+         <font>
+            <Font name="Sitka Small" size="27.0" />
+         </font>
+      </Text>
+      <Button layoutX="67.0" layoutY="444.0" mnemonicParsing="false" onAction="#return_to_menu" text="Return to MENU">
+         <font>
+            <Font name="Segoe UI Semibold Italic" size="14.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="92.0" fitWidth="157.0" layoutX="251.0" layoutY="284.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@please-help-cartoon.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
